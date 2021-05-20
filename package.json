@@ -4,7 +4,8 @@
   "description": "learn how to call an external api using node js.",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "dev": "nodemon --inspect app.js",
+    "start": "node app.js"
   },
   "keywords": [
     "nodejs",
@@ -20,6 +21,7 @@
   "author": "Martand Singh (sniffer)",
   "license": "MIT",
   "dependencies": {
+    "nodemon": "^2.0.7",
     "request": "^2.88.2"
   }
 }
